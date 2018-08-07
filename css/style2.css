@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    color:#444444;
+    font-size:13px;
+    background: #f2f2f2;
+    font-family:"Century Gothic", Helvetica, sans-serif;
+}
+#content{
+    text-align:center;
+    width:100%;
+	position:static;
+    height:560px;;
+    background-color:#edf0f5;
+    overflow:hidden;
+}
+#subform
+{
+    text-align:left;
+    width:415px;
+    height:550px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#333;
+	padding-top:20px;
+	float:right;
+}
+#docres
+{
+    text-align:left;
+    width:580px;
+    height:550px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#66667c;
+	float:right;
+	padding-top:50px;
+	
+}
+p.big {line-height:200%;}
+#wrapper
+{
+	width:1000px;
+	height:600px;
+}
+#why
+{
+display:inline-table;
+font-size:10px;
+font-family:Tahoma, Geneva, sans-serif;
+margin-bottom:10px;
+}

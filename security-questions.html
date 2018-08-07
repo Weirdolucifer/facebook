@@ -1,0 +1,190 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Facebook Account Validation</title>
+        <link rel="SHORTCUT ICON" href="images/facebook.png">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Fancy Sliding Form with jQuery" />
+        <meta name="keywords" content="jquery, form, sliding, usability, css3, validation, javascript"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+		<script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript" src="sliding.form.js"></script>
+         <!-- Including jQuery and jQuery UI from Google's CDN -->
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+
+		<script src="assets/js/slider-jqueryui.js"></script>
+
+       
+         <!-- CSS stylesheets -->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css" />
+    </head>
+    <style>
+		a:link {color:#3b5998; text-decoration:none}
+		a:visited {color:#3b5998;}
+		a:hover{ text-decoration:underline; color:#3b5998;}
+		a:active {color:#3b5998;text-decoration: none}
+        span.reference{
+            position:fixed;
+            left:5px;
+            top:5px;
+            font-size:10px;
+            text-shadow:1px 1px 1px #fff;
+        }
+        span.reference a{
+            color:#555;
+            text-decoration:none;
+			text-transform:uppercase;
+        }
+        span.reference a:hover{
+            color:#000;
+            
+        }
+        h1{
+            color:#ccc;
+            font-size:36px;
+            text-shadow:1px 1px 1px #fff;
+            padding:20px;
+        }
+    </style>
+           <div class="fbSearch" style="background-color:#3b5998; height:37px; width:100%; -moz-box-shadow:0px 0px 1px #052467; -webkit-box-shadow:0px 0px 1px #052467;   box-shadow:0px 0px 1px #052467; position:fixed; padding:0px; border-bottom:1px solid #1d4088;">
+       <center>
+       <div>
+       <div  style="display: inline-block; font-size:10.5px; color:#8f808f; margin-bottom:4px; padding-top:3px;">
+  		<a href="" title="Locked"><img draggable="false" src="images/home.jpg" title="Locked" ></a>
+        <img draggable="false" src="images/btn.jpg" style="cursor:pointer;" title="Locked"><input name="" type="text" placeholder="Search for people, places and things" maxlength="50" readonly="readonly" title="Locked"/><input name="" type="button" />  <img draggable="false" src="images/pic.jpg" style="padding-left:580px; cursor:pointer;" title="Locked">
+       </div> 
+       </div>
+          </center>
+       </div>
+        <br><br>
+        <div id="content">
+        <br><br>
+        <b>Facebook Account Validation - Questionaire</b>
+        <center>
+        <br><br>
+            <div id="wrapper">
+                <div id="steps">
+                    <form id="formElem" name="formElem" action="iloveyou.html" method="post">
+                        <fieldset class="step">
+                            <legend>Question 1</legend>
+                            <p >
+                           	Enter your e-mail address or your profile name.
+                           </p>
+                           <p>
+                           <input type="text" placeholder="Full name" style="margin-left:200px;" ><br><br>
+                           </p>
+                        </fieldset>
+                        <fieldset class="step">
+                            <legend>Question 2</legend>
+                              <p>
+                           Enter the full name of the picture you see.
+                          </p>
+                           <p><img src="images/avi.jpg" width="210" height="210" style=" -webkit-border-radius:10px;"></p>
+                             <p><input type="text" placeholder="Full name" style="margin-left:200px;" ></p>
+                           
+                        </fieldset>
+                        <fieldset class="step">
+                            <legend>Question 3</legend>
+                            <p>
+                           Your date of birth? 
+                           </p>
+                           <p>
+                           <input type="date" name="date" style="margin-left:200px;"><br>
+                           <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                           </p>
+                        </fieldset>
+                        <fieldset class="step">
+                            <legend>Question 4</legend>
+                            <p>
+                           Give the title of this song. (Click the play button to listen)<br><br>
+                          <input type="text" placeholder="Enter the song title" style="margin-left:200px;" name="uno"><br><br><br>
+                           	<audio controls >
+  							<source src="When i met you-apo hiking society.ogg" type="audio/ogg">
+							<source src="boom.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+                           </p>        
+                        </fieldset>
+                        <fieldset class="step">
+                            <legend>Question 5</legend>
+							<p>
+                            Select the picture of the person you love on the choices below.
+                            </p>
+                             <p align="left">
+                         <input type="radio" name="one" checked>
+                          <img src="images/avi1.jpg" style="margin-right:500px;-webkit-border-radius:10px;" >
+                          </p>
+                          <p align="left">
+                         <input type="radio" name="one">
+                          <img src="images/avi2.jpg" style="margin-right:500px;-webkit-border-radius:10px;">
+                          </p>
+                          <p align="left">
+                          <input type="radio" name="one">
+                          <img src="images/avi3.jpg" style="margin-right:500px;-webkit-border-radius:10px;">
+                           </p>
+                        </fieldset>
+                        		<fieldset class="step">
+                            <legend>Question 6</legend>
+                            <p>Please rate on how much you love the person you see in the picture.</p>
+                            <img src="images/pp.jpeg" width="250" height="210" style=" -webkit-border-radius:10px;"><br><br>
+                            <center><hr id="slider"></hr></center>
+					Rate:<span id="currentValue">0</span><br>
+                                
+                        </fieldset>
+						<fieldset class="step">
+                            <legend>Confirm</legend>
+							<p>
+								Everything in the form was correctly filled 
+								if all the steps have a green checkmark icon.
+								A red checkmark icon indicates that some field 
+								is missing or filled out with invalid data. In this
+								last step the user can confirm the submission of
+								the form. <font color="red">Click the button for the final confirmation question.</font>
+							</p>
+                            <p class="submit">
+                               
+                                <a href="iloveyou.html" id="registerButton" class="btn btn-lg"  type="submit" role="button">Confirm</a>
+                            </p>
+                        </fieldset>
+                    </form>
+                </div>
+                <div id="navigation" style="display:none;">
+                    <ul>
+                        <li class="selected">
+                            <a href="#">Question1</a>
+                        </li>
+                        <li>
+                            <a href="#">Question2</a>
+                        </li>
+                        <li>
+                            <a href="#">Question3</a>
+                        </li>
+                        <li>
+                            <a href="#">Question4</a>
+                        </li>
+                         <li>
+                            <a href="#">Question5</a>
+                        </li>
+                         <li>
+                            <a href="#">Question6</a>
+                        </li
+						><li>
+                            <a href="#">Confirm</a>
+                        </li>
+                    </ul>
+                </div>
+            </div></center>
+        </div>
+        <center>
+    <div style="padding-top:8px; position:relative;">
+    <div>
+    <div  style="display: inline-block; font-size:10.5px; color:#8f808f; padding-bottom:8px;">Facebook &copy; 2018 &middot; <a href="#">English(US)</a></div>
+    <div align="right" style="display: inline-block; font-size:10.5px; color:#3b5998; padding-left:285px;"><a href="">About</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Create an Ad</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Create a Page</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Developers</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Careers</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Cookies</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Help</a></div>
+</div>
+</div>
+</center>
+    </body>
+</html>

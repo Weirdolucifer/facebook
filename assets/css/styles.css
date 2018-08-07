@@ -1,0 +1,78 @@
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#54a6de;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+section, footer{
+	display: block;
+}
+
+p{
+	text-align:center;
+}
+
+#main{
+	width:500px;
+	height:2px;
+	margin:0 auto;
+	padding-top:200px;
+	position:relative;
+	text-align:center;
+}
+
+.note{
+	padding:0 20px;
+	font-size:12px;
+	width:400px;
+}
+
+.examples{
+	position:absolute;
+	top:100px;
+	width:100%;
+}
+
+
+/*----------------------------
+	Default slider
+-----------------------------*/
+
+#defaultSlider{
+	width:200px;
+	
+}
+
+
+/*----------------------------
+	jQuery UI Example
+-----------------------------*/
+
+#slider{
+	margin-bottom:2px;
+	width:400px;
+}
+
+
